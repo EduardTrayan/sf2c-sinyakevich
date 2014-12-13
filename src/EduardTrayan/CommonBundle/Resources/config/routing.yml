@@ -1,0 +1,3 @@
+eduard_trayan_common_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: EduardTrayanCommonBundle:Default:index }

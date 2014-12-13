@@ -1,0 +1,4 @@
+services:
+#    eduard_trayan_common.example:
+#        class: EduardTrayan\CommonBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
