@@ -1,3 +1,36 @@
 eduard_trayan_website_homepage:
     path:     /hello/{name}
-    defaults: { _controller: EduardTrayanWebsiteBundle:Default:index }
+    defaults: _controller: EduardTrayanWebsiteBundle:Default:index
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    #template: 'WebSiteBundle:Index:about.html.twig'
