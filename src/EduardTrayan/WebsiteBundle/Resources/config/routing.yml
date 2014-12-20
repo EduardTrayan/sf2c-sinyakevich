@@ -1,36 +1,41 @@
-eduard_trayan_website_homepage:
+web_site:
+  resource: "@WebSiteBundle/Controller"
+  type:     annotation
+
+
+hello:
     path:     /hello/{name}
-    defaults: _controller: EduardTrayanWebsiteBundle:Default:index
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    defaults:
+       _controller: EduardTrayanWebsiteBundle:Hello:index
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     #template: 'WebSiteBundle:Index:about.html.twig'
