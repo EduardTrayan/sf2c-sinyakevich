@@ -1,8 +1,8 @@
 <?php
 
-namespace EduardTrayan\WebSiteBundle\Controller;
+namespace EduardTrayan\WebSiteBundle\Controller\IndexController;
 
-use EduardTrayan\CommonBundle\Controller;
+use EduardTrayan\CommonBundle\Controller\AbstractController;
 
 class IndexController extends AbstractController
 {

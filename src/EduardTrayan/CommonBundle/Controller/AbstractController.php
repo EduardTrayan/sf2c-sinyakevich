@@ -1,6 +1,6 @@
 <?php
 
-namespace EduardTrayan\CommonBundle\Controller;
+namespace EduardTrayan\CommonBundle\Controller\AbstractController;
 
 /**
  * Class CommonController
@@ -10,3 +10,4 @@ namespace EduardTrayan\CommonBundle\Controller;
 abstract class AbstractController
 {
 }
+
