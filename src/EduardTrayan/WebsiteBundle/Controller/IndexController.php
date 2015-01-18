@@ -3,14 +3,14 @@
 namespace EduardTrayan\WebSiteBundle\Controller\IndexController;
 
 use EduardTrayan\CommonBundle\Controller\AbstractController;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 
 class IndexController extends AbstractController
 {
     /**
-     *
-     * @return \EduardTrayan\WebsiteBundle\Controller\AbstractController\Response
+     * @Route("/hello/{name}")
      */
-   public function indexAction()
+    public function indexAction($name)
     {
         return new Response('<html><body>Hello world!</body></html>');
     }
