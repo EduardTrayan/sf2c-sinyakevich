@@ -1,0 +1,7 @@
+parameters:
+    eduardtrayan.common.abstract_controller: EduardTrayan\WebsiteBundle\Controller\IndexController
+        
+    services:
+        eduardtrayan.website.index_controller:
+            class: %eduardtrayan.website.index_controller%
+            parent: eduardtrayan.common.abstract_controller

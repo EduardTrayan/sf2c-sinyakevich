@@ -1,1 +1,7 @@
-services:
+parameters:
+    eduardtrayan.common.abstract_controller: EduardTrayan\CommonBundle\Controller\AbstractController
+        
+    services:
+        eduardtrayan.common.abstract_controller:
+            abstract: true
+            class: %eduardtrayan.common.abstract_controller%

@@ -4,3 +4,4 @@ eduard_trayan_website:
 eduard_trayan_common:
     resource: "@EduardTrayanCommonBundle/Resources/config/routing.yml"
     prefix:   /
+    
