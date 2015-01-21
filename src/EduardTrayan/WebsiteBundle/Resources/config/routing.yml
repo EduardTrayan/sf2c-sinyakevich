@@ -1,3 +1,4 @@
 web_site:
   resource: "@WebSiteBundle/Controller"
   type:     annotation
+  

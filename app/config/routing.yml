@@ -1,6 +1,7 @@
 eduard_trayan_website:
     resource: "@EduardTrayanWebsiteBundle/Resources/config/routing.yml"
     prefix:   /
+    
 eduard_trayan_common:
     resource: "@EduardTrayanCommonBundle/Resources/config/routing.yml"
     prefix:   /

@@ -1,5 +1,5 @@
 parameters:
-    eduardtrayan.common.abstract_controller: EduardTrayan\WebsiteBundle\Controller\IndexController
+    eduardtrayan.website.index_controller: EduardTrayan\WebsiteBundle\Controller\IndexController
         
     services:
         eduardtrayan.website.index_controller:

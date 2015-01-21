@@ -1,5 +1,6 @@
 <?php
 namespace EduardTrayan\CommonBundle\Controller\AbstractController;
+
 /**
  * Class CommonController
  * @package EduardTrayan\CommonBundle\Controller
