@@ -14,7 +14,7 @@ abstract class AbstractController
 //   return $this->container->get('router')->generate($route, $parameters, $referenceType);
 // }
 
-    public function setTemplating($templating);
+    public function setTemplating($templating)
     {
      return $this->templating = $templating;
     }
@@ -23,4 +23,3 @@ abstract class AbstractController
     {
         return new Response($this->templating->render($view, $parameters));
     }
-}
