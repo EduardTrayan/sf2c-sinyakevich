@@ -18,5 +18,9 @@ abstract class AbstractController
     {
      return $this->templating = $templating;
     }
-   
+    
+    public function render($view, $parameters = [])
+    {
+        return new Response($this->templating->render($view, $parameters));
+    }
 }
