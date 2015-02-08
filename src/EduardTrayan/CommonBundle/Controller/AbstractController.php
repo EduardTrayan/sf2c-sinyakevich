@@ -1,6 +1,7 @@
 <?php
 
-namespace EduardTrayan\CommonBundle\Controller\AbstractController;
+namespace EduardTrayan\CommonBundle\Controller;
+
 use Symfony\Component\Templating\EngineInterface;
 
 /**
@@ -16,10 +17,11 @@ abstract class AbstractController
 
     public function setTemplating($templating)
     {
-     return $this->templating = $templating;
+        return $this->templating = $templating;
     }
     
-    public function render($view, $parameters = [])
+    public function render($view, $parameters = array())
     {
         return new Response($this->templating->render($view, $parameters));
     }
+}

@@ -1,4 +1,4 @@
 web_site:
-  resource: "@WebSiteBundle/Controller"
-  type:     annotation
+    resource: "@EduardTrayanWebsiteBundle/Controller/"
+    type: annotation
    
